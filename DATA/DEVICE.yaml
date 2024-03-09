@@ -1,0 +1,14 @@
+---
+# DEFINIR LOS DISPOSITIVOS
+routers:
+  BVS-LAB-TS01:
+    device_type: cisco_ios  # REEMPLAZAR POR LA PLATAFORMA CORRESPONDIENTE (VER DOC NETMICO cisco_ios, juniper_junos, etc)
+    ip: 10.110.255.25
+  BVS-LAB-CORE:
+    device_type: cisco_xe
+    ip: 10.110.0.1
+
+switches:
+  SAR-BE-SW01:
+    device_type: cisco_ios  
+    ip: 10.116.0.11

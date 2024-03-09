@@ -1,0 +1,2 @@
+show cdp neigh
+show ip int brief
