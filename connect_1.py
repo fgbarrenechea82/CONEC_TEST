@@ -36,9 +36,9 @@ class ConnectAndPush:
          for IP in equipos:
             comandos=open(self.command_file)  # VARIABLE QUE CARGA LOS COMANDOS A EJECUTAR
             host = {
-               'device_type': 'linux', 
-               'ip': IP,
-               'port': '2233',
+               'device_type': 'cisco_ios', 
+               'ip': '10.110.255.25',
+               'port': '22',
                'username': self.user,
                'password': self.clave
             }
