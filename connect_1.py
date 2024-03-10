@@ -1,9 +1,9 @@
 from netmiko import ConnectHandler
 from netmiko.ssh_exception import NetMikoTimeoutException, NetMikoAuthenticationException
 from paramiko import SSHException
-from getpass import getpass
+from getpass4 import getpass
 from datetime import datetime
-from os.path import exists
+from os import path2 as os.path
 import pyfiglet
 from colorama import Fore, Style
 
