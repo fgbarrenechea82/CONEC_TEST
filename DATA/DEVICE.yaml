@@ -1,5 +1,8 @@
 ---
 # DEFINIR LOS DISPOSITIVOS
+BVS-LAB-CORE_wo:
+  device_type: cisco_xe
+  ip: 10.110.0.3
 BVS-LAB-TS01:
   device_type: cisco_ios  # REEMPLAZAR POR LA PLATAFORMA CORRESPONDIENTE (VER DOC NETMICO cisco_ios, juniper_junos, etc)
   ip: 10.110.255.25

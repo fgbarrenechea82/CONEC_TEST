@@ -47,7 +47,6 @@ class ConnectAndPush:
          
          for device_name, device_info in self.dispositivos.items():
             host = device_info.copy()
-            #host['port'] = int(host['port'])
             host['username']=self.user
             host['password']=self.clave
             print(Fore.LIGHTGREEN_EX + '\nConectandose a:' + device_name + ': ' + host['ip'] + Style.RESET_ALL)
@@ -57,25 +56,26 @@ class ConnectAndPush:
                hora = datetime.now().strftime("%H:%M:%S")   # CURRENT TIME
                ssh = ConnectHandler(**host)
                resultado=open('/mnt/g/Otros ordenadores/Mi portátil/DEVNET/AUTOMATION/CONEC_TEST/RESULT/'+fecha+'-resultados.txt', 'a')
-               resultado.write('\n- - - - - - - - - - -\n\n' + hora + ' --> ' + host['ip'])
+               # DEVICE TITLE - HEADER
+               resultado.write('\n- - - - - - - - - - -\n')
+               resultado.write('\n' + hora + ' --> ' + device_name + ': ' + host['ip'])
+               # EXECUTION OF COMMANDS
                for coma in comandos:
                   salida = ssh.send_command(coma)
-                  resultado.write('- - -\n' + coma + '\n' + salida + '\n')
-                  print('Ejecutando:', coma)
-                  print(salida)
-                  print("\n- - - - - - - - - -\n")
+                  resultado.write('\n- - -' + coma + '- - -\n' + salida + '\n')
+                  print(coma)
+               # CONNECTION CLOSE
                ssh.disconnect()
+               # CLOSE FILE
                resultado.close()
 
-            except (NetMikoTimeoutException, NetMikoAuthenticationException, SSHException) as e:
-               print(e)
+            except (NetmikoTimeoutException, NetmikoAuthenticationException, SSHException) as e:
                error=open('/mnt/g/Otros ordenadores/Mi portátil/DEVNET/AUTOMATION/CONEC_TEST/RESULT/'+fecha+'-errores.txt', 'a')
                error.write('\n- - - - - - - - - - -\n' + hora + ' --> ' + str(e)) # TELL US THE ERROR
                error.close()
                continue
-      else:
-         print('Verifique si los archivos de configuración esten en la carpeta de RESULTADOS.')
-
+            
+      print('Verifique si los archivos de configuración esten en la carpeta de RESULTADOS.')
 
 if __name__ == '__main__':
    ConnectAndPush().conectar()

@@ -1,0 +1,70 @@
+
+- - - - - - - - - - -
+13:32:01 --> TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xe 10.110.0.3:22
+
+
+- - - - - - - - - - -
+13:32:14 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+13:37:58 --> TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xe 10.110.0.3:22
+
+
+- - - - - - - - - - -
+13:38:10 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+13:42:13 --> TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xe 10.110.0.3:22
+
+
+- - - - - - - - - - -
+13:42:25 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.

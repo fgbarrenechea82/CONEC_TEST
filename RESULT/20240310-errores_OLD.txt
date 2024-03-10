@@ -1,0 +1,85 @@
+
+- - - - - - - - - - -
+12:50:01 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+12:55:54 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+12:57:44 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+12:58:52 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+13:06:35 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_xe 10.110.0.1:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+13:06:37 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.110.255.25:22
+
+
+Authentication failed.
+- - - - - - - - - - -
+13:06:40 --> Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 10.116.0.11:22
+
+
+Authentication failed.

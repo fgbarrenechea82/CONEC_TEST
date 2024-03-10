@@ -1,0 +1,121 @@
+
+- - - - - - - - - - -
+
+13:38:08 --> BVS-LAB-TS01: 10.110.255.25
+- - -show cdp neigh
+- - -
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+BVS-LAB-CORE.bvstv.lab
+                 Gig 0/0/0         137             R S I  C9300-24P Gig 1/0/9
+SAR-BE-SW01.bvs.local
+                 Gig 0/0/1         155              S I   WS-C2960X Gig 1/0/19
+
+Total cdp entries displayed : 2
+
+- - -show ip int brief- - -
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   10.110.255.25   YES NVRAM  up                    up      
+GigabitEthernet0/0/1   10.116.0.25     YES NVRAM  up                    up      
+Async0/1/0             unassigned      YES NVRAM  up                    down    
+Async0/1/1             unassigned      YES NVRAM  up                    down    
+Async0/1/2             unassigned      YES NVRAM  up                    down    
+Async0/1/3             unassigned      YES NVRAM  up                    down    
+Async0/1/4             unassigned      YES NVRAM  up                    down    
+Async0/1/5             unassigned      YES NVRAM  up                    down    
+Async0/1/6             unassigned      YES NVRAM  up                    down    
+Async0/1/7             unassigned      YES NVRAM  up                    down    
+Async0/1/8             unassigned      YES NVRAM  up                    down    
+Async0/1/9             unassigned      YES NVRAM  up                    down    
+Async0/1/10            unassigned      YES NVRAM  up                    down    
+Async0/1/11            unassigned      YES NVRAM  up                    down    
+Async0/1/12            unassigned      YES NVRAM  up                    down    
+Async0/1/13            unassigned      YES NVRAM  up                    down    
+Async0/1/14            unassigned      YES NVRAM  up                    down    
+Async0/1/15            unassigned      YES NVRAM  up                    down    
+Async0/2/0             unassigned      YES NVRAM  up                    down    
+Async0/2/1             unassigned      YES NVRAM  up                    down    
+Async0/2/2             unassigned      YES NVRAM  up                    down    
+Async0/2/3             unassigned      YES NVRAM  up                    down    
+Async0/2/4             unassigned      YES NVRAM  up                    down    
+Async0/2/5             unassigned      YES NVRAM  up                    down    
+Async0/2/6             unassigned      YES NVRAM  up                    down    
+Async0/2/7             unassigned      YES NVRAM  up                    down    
+Async0/2/8             unassigned      YES NVRAM  up                    down    
+Async0/2/9             unassigned      YES NVRAM  up                    down    
+Async0/2/10            unassigned      YES NVRAM  up                    down    
+Async0/2/11            unassigned      YES NVRAM  up                    down    
+Async0/2/12            unassigned      YES NVRAM  up                    down    
+Async0/2/13            unassigned      YES NVRAM  up                    down    
+Async0/2/14            unassigned      YES NVRAM  up                    down    
+Async0/2/15            unassigned      YES NVRAM  up                    down    
+GigabitEthernet0       unassigned      YES NVRAM  down                  down    
+Loopback0              10.10.10.10     YES NVRAM  up                    up      
+Tunnel0                10.110.255.25   YES unset  up                    up      
+
+- - - - - - - - - - -
+
+13:38:09 --> BVS-LAB-CORE: 10.110.0.1
+- - - - - - - - - - -
+
+13:42:23 --> BVS-LAB-TS01: 10.110.255.25
+- - -show cdp neigh
+- - -
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+BVS-LAB-CORE.bvstv.lab
+                 Gig 0/0/0         148             R S I  C9300-24P Gig 1/0/9
+SAR-BE-SW01.bvs.local
+                 Gig 0/0/1         170              S I   WS-C2960X Gig 1/0/19
+
+Total cdp entries displayed : 2
+
+- - -show ip int brief- - -
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   10.110.255.25   YES NVRAM  up                    up      
+GigabitEthernet0/0/1   10.116.0.25     YES NVRAM  up                    up      
+Async0/1/0             unassigned      YES NVRAM  up                    down    
+Async0/1/1             unassigned      YES NVRAM  up                    down    
+Async0/1/2             unassigned      YES NVRAM  up                    down    
+Async0/1/3             unassigned      YES NVRAM  up                    down    
+Async0/1/4             unassigned      YES NVRAM  up                    down    
+Async0/1/5             unassigned      YES NVRAM  up                    down    
+Async0/1/6             unassigned      YES NVRAM  up                    down    
+Async0/1/7             unassigned      YES NVRAM  up                    down    
+Async0/1/8             unassigned      YES NVRAM  up                    down    
+Async0/1/9             unassigned      YES NVRAM  up                    down    
+Async0/1/10            unassigned      YES NVRAM  up                    down    
+Async0/1/11            unassigned      YES NVRAM  up                    down    
+Async0/1/12            unassigned      YES NVRAM  up                    down    
+Async0/1/13            unassigned      YES NVRAM  up                    down    
+Async0/1/14            unassigned      YES NVRAM  up                    down    
+Async0/1/15            unassigned      YES NVRAM  up                    down    
+Async0/2/0             unassigned      YES NVRAM  up                    down    
+Async0/2/1             unassigned      YES NVRAM  up                    down    
+Async0/2/2             unassigned      YES NVRAM  up                    down    
+Async0/2/3             unassigned      YES NVRAM  up                    down    
+Async0/2/4             unassigned      YES NVRAM  up                    down    
+Async0/2/5             unassigned      YES NVRAM  up                    down    
+Async0/2/6             unassigned      YES NVRAM  up                    down    
+Async0/2/7             unassigned      YES NVRAM  up                    down    
+Async0/2/8             unassigned      YES NVRAM  up                    down    
+Async0/2/9             unassigned      YES NVRAM  up                    down    
+Async0/2/10            unassigned      YES NVRAM  up                    down    
+Async0/2/11            unassigned      YES NVRAM  up                    down    
+Async0/2/12            unassigned      YES NVRAM  up                    down    
+Async0/2/13            unassigned      YES NVRAM  up                    down    
+Async0/2/14            unassigned      YES NVRAM  up                    down    
+Async0/2/15            unassigned      YES NVRAM  up                    down    
+GigabitEthernet0       unassigned      YES NVRAM  down                  down    
+Loopback0              10.10.10.10     YES NVRAM  up                    up      
+Tunnel0                10.110.255.25   YES unset  up                    up      
+
+- - - - - - - - - - -
+
+13:42:25 --> BVS-LAB-CORE: 10.110.0.1
